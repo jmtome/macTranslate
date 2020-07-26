@@ -4,7 +4,8 @@
 ### ToDo's
 - [x] Translate
 - [x] Show History
-- [ ] Save History
+- [x] Save History using UserDefaults
+- [x] Added dummy translations dictionary to test when api isnt working
 - [ ] Create CoreData so that translation isn't requested again after app cycles
 - [ ] Add API Request Counter
 - [ ] Auto Detect Language
