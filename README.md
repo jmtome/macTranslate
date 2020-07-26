@@ -3,8 +3,10 @@
 
 ### ToDo's
 - [x] Translate
-- [ ] Create CoreData so that translation isn't requested again.
-- [ ] Show history
+- [x] Show History
+- [ ] Save History
+- [ ] Create CoreData so that translation isn't requested again after app cycles
+- [ ] Add API Request Counter
 - [ ] Auto Detect Language
 
 ![Alt Text](translateScreen.gif)
