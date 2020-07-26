@@ -13,7 +13,7 @@ protocol ModelDelegate {
 }
 
 struct Constants {
-   //add constants
+    
 }
 
 class Model {
@@ -51,7 +51,7 @@ class Model {
         let url = URL(string: "https://google-translate1.p.rapidapi.com/language/translate/v2")!
         var request = URLRequest(url: url)
         request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-        request.setValue("54539a72a3mshab1c09906692b3ep17fee6jsna84d3315adf7", forHTTPHeaderField: "x-rapidapi-key")
+        request.setValue(Constants.API_KEY1, forHTTPHeaderField: "x-rapidapi-key")
         
         request.httpMethod = "POST"
 //        let parameters: [String: Any] = [
