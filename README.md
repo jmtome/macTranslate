@@ -7,4 +7,4 @@
 - [ ] Show history
 - [ ] Auto Detect Language
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](translateScreen.gif)
